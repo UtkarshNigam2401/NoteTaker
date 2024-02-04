@@ -1,6 +1,5 @@
 # NoteTaker
-NoteTaker: A Dynamic Web Application for Note-Taking
-NoteTaker is a web application designed to provide users with a user-friendly and efficient way to create, manage, and organize their notes online. Built with HTML, CSS, JavaScript, Hibernate, Servlet, and JSP, NoteTaker offers a dynamic and modern user experience, making it a valuable tool for anyone who needs to keep track of important information.
+NoteTaker is a web application designed to provide users with a user-friendly and efficient way to create, manage, and organize their notes online. Built with CSS, Hibernate, Servlet, and JSP, NoteTaker offers a dynamic and modern user experience, making it a valuable tool for anyone who needs to keep track of important information.
 
 Features:
 * Create and edit notes: Easily write and format notes using a user-friendly interface.
@@ -10,9 +9,7 @@ Features:
 Tech Stack:
 
 Front-end:
- * HTML
  * CSS
- * JavaScript
    
 Back-end:
  * Hibernate
