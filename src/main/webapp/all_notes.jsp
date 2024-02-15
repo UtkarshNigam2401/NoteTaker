@@ -1,10 +1,10 @@
 <%@page import="java.util.List"%>
-<%@page import="org.hibernate.Query"%>
+<%@page import="org.hibernate.query.Query"%>
 <%@page import="com.helper.FactoryProvider"%>
 <%@page import="org.hibernate.Session"%>
-<%@page import="com.entities.*"%>
+<%@page import="com.entities.Note"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,8 +20,8 @@
 		<h1>All Notes:</h1>
 		<%
 		Session s = FactoryProvider.getFactory().openSession();
-		Query q = s.createQuery("from Note");
-		List<Note> list = q.list();
+		Query<Note> q = s.createQuery("from Note",Note.class);
+		List<Note> list = q.getResultList();
 		for (Note note : list) {
 		%>
 
@@ -39,7 +39,8 @@
 					href="edit.jsp?note_id=<%=note.getId()%>" class="btn btn-primary">Update</a>
 			</div>
 		</div>
-
+		
+ 
 		<%
 		}
 		s.close();
