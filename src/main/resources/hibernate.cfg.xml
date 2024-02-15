@@ -4,20 +4,18 @@
 <hibernate-configuration>
 	<session-factory>
 		<!-- Database connection settings -->
-		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/myhiber</property>
-		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">Uttu@0204</property>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/myhiber</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">Uttu@0204</property>
 
 		<!-- Other Hibernate properties -->
-		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hibernate.show_sql">true</property>
-		<!-- Add more properties as needed -->
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<property name="show_sql">true</property>
 		<property name="hbm2ddl.auto">update</property>
-		<property name="formate_sql">true</property>
+		<property name="format_sql">true</property>
 
 		<!-- Mapping files -->
-		<!-- Add your entity mapping files here -->
 		<mapping class="com.entities.Note" />
 
 	</session-factory>
