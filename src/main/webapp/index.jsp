@@ -11,9 +11,9 @@
 <body style="background-color: darkturquoise;">
 	<%@include file="navbar.jsp"%>
 	<br>
-	<h1 class="text-center" style="color: red;">This is a website
-		which will keep all the records of your notes and can work as a to do
-		list also.</h1>
+	<h1 class="heading" 
+		style="font-family: 'Arial', sans-serif; font-size: 36px; font-weight: bold; color: #4CAF50; /* Green color */ text-align: center; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+		NoteTaker: Your Personal Note Management and Task Tracking Solution</h1>
 
 	<!-- Caraousel -->
 	<div id="carouselExampleIndicators" class="carousel slide">
