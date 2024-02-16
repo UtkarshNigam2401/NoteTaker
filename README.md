@@ -1,42 +1,35 @@
 # NoteTaker
-NoteTaker is a web application designed to provide users with a user-friendly and efficient way to create, manage, and organize their notes online. Built with CSS, Hibernate, Servlet, and JSP, NoteTaker offers a dynamic and modern user experience, making it a valuable tool for anyone who needs to keep track of important information.
 
-Features:
-* Create and edit notes: Easily write and format notes using a user-friendly interface.
-* Organize notes: Create categories and subcategories to organize your notes and keep them accessible.
-* Responsive design: Access and manage your notes from any device, including smartphones and tablets.
+NoteTaker is a simple web application for managing and tracking personal notes and tasks.
 
-Tech Stack:
+## Features
 
-Front-end:
- * CSS
-   
-Back-end:
- * Hibernate
- * Servlet
- * JSP
+- **Add Note**: Add new notes with titles, content, and timestamps.
+- **Show Notes**: View all existing notes with their titles, content, and timestamps.
+- **Update Notes**: Edit existing notes to update their titles and content.
+- **Delete Notes**: Delete unwanted notes from the system.
 
-Getting Started:
+## Technologies Used
 
-Clone the repository:
-git clone https://github.com/your-username/notetaker.git
-Install dependencies:
-Install Java Development Kit (JDK) and ensure it's added to your system path.
-Download and install Apache Tomcat server.
-Configure Tomcat to point to the webapps directory of the NoteTaker application.
-Start the application:
-Start Apache Tomcat server.
-Navigate to http://localhost:8080/notetaker in your web browser.
-Contribution:
+- **Java**: Backend development language.
+- **Jakarta Servlets**: Handling HTTP requests and responses.
+- **Hibernate**: Object-relational mapping (ORM) framework for database operations.
+- **MySQL**: Relational database management system for storing notes.
+- **CSS**: Frontend styling.
+- **Bootstrap**: Frontend UI framework for responsive design.
+- **Apache Tomcat**: Servlet container for deploying and running the application.
 
-We encourage contributions to the NoteTaker project. Please feel free to submit pull requests with your improvements and bug fixes.
+## Software Versions
 
-License:
+- **Java**: JDK 21
+- **Jakarta Servlets**: 6.0.0
+- **Hibernate**: 6.3.1.Final
+- **MySQL**: 8.0.26
+- **Apache Tomcat**: 10.1.18
 
-NoteTaker is open-source software licensed under the MIT License.
+## Installation
 
-Support:
+1. Clone the repository:
 
-For any questions or feedback, please feel free to create a new issue on the project's GitHub repository.
-
-Thank you for using NoteTaker!
+   ```bash
+   git clone https://github.com/UtkarshNigam2401/NoteTaker.git
