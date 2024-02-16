@@ -35,10 +35,15 @@ NoteTaker is a simple web application for managing and tracking personal notes a
    git clone https://github.com/UtkarshNigam2401/NoteTaker.git
 
 
-Set up your MySQL database and configure the database connection settings in "hibernate.cfg.xml".
+1. Set up your MySQL database and configure the database connection settings in "hibernate.cfg.xml".
 
-Build and run the project using Apache Tomcat or a similar Servlet container.
+2. Build and run the project using Apache Tomcat or a similar Servlet container.
 
 
-License
-This project is licensed under the MIT License.
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
