@@ -5,6 +5,7 @@ NoteTaker is a simple web application for managing and tracking personal notes a
 ## Features
 
 - **Add Note**: Add new notes with titles, content, and timestamps.
+- ![Screenshot 2024-02-15 181914](https://github.com/UtkarshNigam2401/NoteTaker/assets/74413725/74364185-e1d2-41e2-9803-65622d958d57)
 - **Show Notes**: View all existing notes with their titles, content, and timestamps.
 - **Update Notes**: Edit existing notes to update their titles and content.
 - **Delete Notes**: Delete unwanted notes from the system.
